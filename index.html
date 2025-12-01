@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  
+  <!-- SEO Meta Tags -->
+  <title>Bon début de mois de Décembre 2025 - Carte de Vœux Gratuite</title>
+  <meta name="description" content="Carte de vœux gratuite pour souhaiter un bon début de mois de Décembre. Partagez chaleur et moments magiques avec vos proches. Design élégant et personnalisable." />
+  <meta name="keywords" content="carte décembre, vœux décembre, début de mois, carte gratuite, noël, fêtes de fin d'année, carte de vœux" />
+  <meta name="author" content="Carte de Vœux" />
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Bon début de mois de Décembre - Carte de Vœux" />
+  <meta property="og:description" content="Souhaitez un bon début de mois de Décembre avec cette jolie carte gratuite et personnalisable" />
+  <meta property="og:locale" content="fr_FR" />
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Bon début de mois de Décembre - Carte de Vœux" />
+  <meta name="twitter:description" content="Carte de vœux gratuite pour décembre - Design élégant et personnalisable" />
+  
+  <!-- Canonical URL -->
+
+  
+  <!-- Fonts optimisés avec preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+  
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "Carte de Vœux - Bon début de mois de Décembre",
+    "description": "Carte de vœux gratuite et personnalisable pour souhaiter un bon début de mois de Décembre",
+    "inLanguage": "fr-FR",
+    "datePublished": "2024-12-01",
+    "keywords": "carte décembre, vœux, fêtes",
+    "creator": {
+      "@type": "Organization",
+      "name": "Carte de Vœux"
+    }
+  }
+  </script>
+  
+  <style>
+    :root{
+      --bg:#FFF7EE;
+      --card:#fff;
+      --accent:#B02A2A;
+      --green:#2E7D32;
+      --muted:#7A6B5A;
+      --glass: rgba(255,255,255,0.6);
+      --shadow: 0 8px 30px rgba(18,18,18,0.12);
+    }
+
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%;scroll-behavior:smooth}
+    body{
+      font-family: 'Open Sans', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background: radial-gradient(circle at 10% 10%, #FFF, var(--bg) 40%);
+      color:var(--muted);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:clamp(16px, 4vw, 32px);
+      min-height:100vh;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      overflow-x:hidden;
+    }
+
+    .card{
+      width:100%;
+      max-width:880px;
+      min-height:clamp(400px, 60vh, 600px);
+      background:linear-gradient(180deg,var(--card), #FEF9F5);
+      border-radius:clamp(12px, 2vw, 20px);
+      padding:clamp(20px, 4vw, 36px);
+      box-shadow:var(--shadow);
+      position:relative;
+      overflow:hidden;
+      display:grid;
+      grid-template-columns:1fr;
+      gap:clamp(20px, 3vw, 28px);
+      align-items:center;
+    }
+
+    .message{
+      padding:clamp(12px, 2vw, 22px) clamp(8px, 1.5vw, 14px);
+      order:1;
+    }
+
+    h1{
+      margin:0 0 clamp(8px, 1.5vw, 10px) 0;
+      font-family: 'Montserrat', sans-serif;
+      font-weight:700;
+      color:var(--accent);
+      letter-spacing:0.4px;
+      font-size:clamp(24px, 5vw, 44px);
+      line-height:1.15;
+      transform:translateY(8px);
+      opacity:0;
+      animation:fadeUp .7s ease-out .15s both;
+    }
+
+    .lead{
+      margin:clamp(6px, 1vw, 8px) 0 clamp(16px, 2.5vw, 22px) 0;
+      font-size:clamp(14px, 2.2vw, 16px);
+      line-height:1.6;
+      color:#5a4f44;
+      opacity:0;
+      animation:fadeUp .7s ease-out .25s both;
+    }
+
+    .cta{
+      display:flex;
+      flex-wrap:wrap;
+      gap:clamp(8px, 1.5vw, 12px);
+      align-items:center;
+      margin-top:clamp(6px, 1vw, 8px);
+      opacity:0;
+      animation:fadeUp .7s ease-out .35s both;
+    }
+
+    .btn{
+      background:var(--accent);
+      color:white;
+      padding:clamp(8px, 1.5vw, 10px) clamp(12px, 2vw, 14px);
+      border-radius:clamp(8px, 1.5vw, 12px);
+      text-decoration:none;
+      font-weight:600;
+      font-size:clamp(13px, 2vw, 15px);
+      box-shadow:0 6px 18px rgba(176,42,42,0.18);
+      transition:transform 0.2s ease, box-shadow 0.2s ease;
+      display:inline-block;
+      text-align:center;
+      min-width:clamp(100px, 15vw, 120px);
+    }
+
+    .btn:hover, .btn:focus{
+      transform:translateY(-2px);
+      box-shadow:0 8px 22px rgba(176,42,42,0.24);
+    }
+
+    .btn.ghost{
+      background:transparent;
+      color:var(--accent);
+      border:1px solid rgba(176,42,42,0.12);
+      box-shadow:none;
+    }
+
+    .btn.ghost:hover, .btn.ghost:focus{
+      background:rgba(176,42,42,0.05);
+      box-shadow:0 4px 12px rgba(176,42,42,0.1);
+    }
+
+    .hint{
+      margin-top:clamp(14px, 2vw, 18px);
+      font-size:clamp(12px, 1.8vw, 13px);
+      color:var(--muted);
+      line-height:1.5;
+    }
+
+    .visual{
+      position:relative;
+      height:clamp(180px, 35vw, 320px);
+      min-height:180px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      order:2;
+    }
+
+    .ornament{
+      width:clamp(120px, 20vw, 180px);
+      height:clamp(120px, 20vw, 180px);
+      border-radius:50%;
+      background:linear-gradient(180deg,#E63946,#B02A2A);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      box-shadow:0 10px 30px rgba(176,42,42,0.24), inset 0 -6px 18px rgba(0,0,0,0.08);
+      transform:translateY(40px) rotate(-8deg);
+      animation:bounce 2.2s cubic-bezier(.2,.9,.3,1) .6s both infinite;
+    }
+
+    .ornament::after{
+      content:'';
+      width:clamp(24px, 4vw, 34px);
+      height:clamp(24px, 4vw, 34px);
+      border-radius:50%;
+      background:linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.2));
+      position:absolute;
+      top:22%;
+      left:22%;
+      filter:blur(0.2px);
+      transform:translate(-6px,-6px) rotate(8deg);
+    }
+
+    .pine{
+      position:absolute;
+      left:clamp(4px, 1.5vw, 12px);
+      top:clamp(4px, 1vw, 8px);
+      width:clamp(160px, 25vw, 220px);
+      height:clamp(160px, 25vw, 220px);
+      transform:translate(-10px,-6px) rotate(-12deg);
+      opacity:.95;
+    }
+
+    .holly{
+      position:absolute;
+      bottom:clamp(12px, 2vw, 18px);
+      right:clamp(12px, 2vw, 18px);
+      width:clamp(80px, 12vw, 120px);
+      height:auto;
+      transform:translateY(20px);
+      animation:float 3.4s ease-in-out .3s infinite;
+    }
+
+    .snow{
+      pointer-events:none;
+      position:absolute;
+      inset:0;
+      z-index:1;
+    }
+    
+    .snow i{
+      position:absolute;
+      top:-10px;
+      width:clamp(6px, 1vw, 8px);
+      height:clamp(6px, 1vw, 8px);
+      border-radius:50%;
+      background:rgba(255,255,255,0.9);
+      opacity:.9;
+      box-shadow:0 1px 3px rgba(0,0,0,0.06);
+      animation:fall linear infinite;
+    }
+
+    .snow i:nth-child(1){left:6%; animation-duration:9s; animation-delay:0s; transform:scale(.9)}
+    .snow i:nth-child(2){left:18%; animation-duration:11s; animation-delay:1s; transform:scale(.6)}
+    .snow i:nth-child(3){left:28%; animation-duration:8s; animation-delay:-2s; transform:scale(.8)}
+    .snow i:nth-child(4){left:38%; animation-duration:10s; animation-delay:0.5s; transform:scale(.7)}
+    .snow i:nth-child(5){left:50%; animation-duration:12s; animation-delay:-1s; transform:scale(.95)}
+    .snow i:nth-child(6){left:62%; animation-duration:7s; animation-delay:.2s; transform:scale(.55)}
+    .snow i:nth-child(7){left:72%; animation-duration:14s; animation-delay:-3s; transform:scale(.85)}
+    .snow i:nth-child(8){left:82%; animation-duration:9s; animation-delay:.6s; transform:scale(.6)}
+    .snow i:nth-child(9){left:92%; animation-duration:10s; animation-delay:-2.1s; transform:scale(.7)}
+
+    @keyframes fall{
+      0%{transform:translateY(-20vh) translateX(0) }
+      100%{transform:translateY(120vh) translateX(30px)}
+    }
+
+    @keyframes fadeUp{
+      from{opacity:0; transform:translateY(12px)}
+      to{opacity:1; transform:translateY(0)}
+    }
+
+    @keyframes bounce{
+      0%{transform:translateY(18px) rotate(-8deg)}
+      40%{transform:translateY(0) rotate(4deg)}
+      60%{transform:translateY(-6px) rotate(-2deg)}
+      100%{transform:translateY(18px) rotate(-8deg)}
+    }
+
+    @keyframes float{
+      0%{transform:translateY(6px)}
+      50%{transform:translateY(-6px)}
+      100%{transform:translateY(6px)}
+    }
+
+    /* Petits écrans - maintenir l'aspect carte */
+    @media (max-width:639px){
+      body{
+        padding:clamp(12px, 3vw, 20px);
+      }
+      .card{
+        min-height:500px;
+        max-height:85vh;
+        padding:clamp(16px, 4vw, 24px);
+      }
+      .message{
+        padding:clamp(8px, 2vw, 12px);
+      }
+      .visual{
+        height:clamp(160px, 30vh, 220px);
+      }
+    }
+
+    /* Tablettes et plus grand */
+    @media (min-width:640px){
+      .card{
+        grid-template-columns:1fr 1fr;
+      }
+      .message{
+        order:1;
+      }
+      .visual{
+        order:2;
+      }
+    }
+
+    @media (min-width:860px){
+      .card{
+        grid-template-columns:1fr 360px;
+      }
+    }
+
+    /* Mode sombre */
+    @media (prefers-color-scheme: dark){
+      :root{
+        --bg:#2A2520;
+        --card:#3A3330;
+        --muted:#C4B5A0;
+      }
+      body{
+        background: radial-gradient(circle at 10% 10%, #3A3330, var(--bg) 40%);
+      }
+      .lead{
+        color:#D4C5B4;
+      }
+    }
+
+    /* Accessibilité */
+    .sr-only{
+      position:absolute;
+      width:1px;
+      height:1px;
+      padding:0;
+      margin:-1px;
+      overflow:hidden;
+      clip:rect(0,0,0,0);
+      border:0;
+    }
+
+    @media (prefers-reduced-motion: reduce){
+      *,*::before,*::after{
+        animation-duration:0.01ms !important;
+        animation-iteration-count:1 !important;
+        transition-duration:0.01ms !important;
+      }
+    }
+
+    /* Focus visible pour accessibilité clavier */
+    .btn:focus-visible{
+      outline:3px solid var(--accent);
+      outline-offset:2px;
+    }
+  </style>
+</head>
+<body>
+  <main class="card" role="main" aria-labelledby="title">
+    <article class="message">
+      <h1 id="title">Bon début de mois de Décembre</h1>
+      <p class="lead">Que ce mois vous apporte chaleur, moments partagés et un peu de magie quotidienne. Pense à sourire aujourd'hui — ça change tout.</p>
+      <nav class="cta" aria-label="Actions de la carte">
+        <a class="btn" href="#partager" role="button" aria-label="Partager cette carte de vœux">Partager</a>
+      
+      </nav>
+    
+    </article>
+
+    <aside class="visual" aria-label="Décoration festive de Noël">
+      <div class="snow" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      </div>
+
+      <svg class="pine" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-label="Sapin de Noël décoratif">
+        <title>Sapin de Noël</title>
+        <g fill="none" stroke="none" stroke-linecap="round">
+          <path d="M100 12 L80 40 L120 40 Z" fill="#2E7D32" />
+          <path d="M100 36 L70 72 L130 72 Z" fill="#2E7D32" />
+          <path d="M100 68 L60 108 L140 108 Z" fill="#2E7D32" />
+          <path d="M100 96 L54 142 L146 142 Z" fill="#2E7D32" />
+        </g>
+      </svg>
+
+      <div class="ornament" role="img" aria-label="Boule de Noël décorative rouge"></div>
+
+      <svg class="holly" viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg" aria-label="Houx décoratif avec baies rouges">
+        <title>Houx de Noël</title>
+        <g transform="translate(6,4)">
+          <path d="M24 44c-6 6-12 8-18 6 6 0 6-6 12-10-8-2-14 2-18 0 6-6 12-10 18-12-4-4-6-8-6-12 6 4 12 4 18 2-2-2-2-6 0-8 6 6 12 8 18 6-6 0-6 6-12 10 8 2 14-2 18 0-6 6-12 10-18 12 4 4 6 8 6 12-6-4-12-4-18-2 2 2 2 6 0 8z" fill="#2E7D32"/>
+          <circle cx="58" cy="46" r="6" fill="#E53935"/>
+          <circle cx="72" cy="34" r="5" fill="#E53935"/>
+          <circle cx="44" cy="34" r="5" fill="#E53935"/>
+        </g>
+      </svg>
+    </aside>
+  </main>
+</body>
+</html>
