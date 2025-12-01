@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   
   <!-- SEO Meta Tags -->
-  <title>Bon début de mois de Décembre 2025 - Carte de Vœux Gratuite</title>
+  <title>Bon début de mois de Décembre 2024 - Carte de Vœux Gratuite</title>
   <meta name="description" content="Carte de vœux gratuite pour souhaiter un bon début de mois de Décembre. Partagez chaleur et moments magiques avec vos proches. Design élégant et personnalisable." />
   <meta name="keywords" content="carte décembre, vœux décembre, début de mois, carte gratuite, noël, fêtes de fin d'année, carte de vœux" />
   <meta name="author" content="Carte de Vœux" />
@@ -13,17 +13,30 @@
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Bon début de mois de Décembre - Carte de Vœux" />
-  <meta property="og:description" content="Souhaitez un bon début de mois de Décembre avec cette jolie carte gratuite et personnalisable" />
+  <meta property="og:url" content="https://votresite.com/carte-debut-decembre" />
+  <meta property="og:title" content="🎄 Bon début de mois de Décembre - Carte de Vœux Gratuite" />
+  <meta property="og:description" content="Que ce mois vous apporte chaleur, moments partagés et un peu de magie quotidienne. Partagez cette jolie carte avec vos proches ! ✨" />
+  <meta property="og:image" content="https://votresite.com/images/carte-decembre-preview.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Carte de vœux pour le début du mois de Décembre avec sapin et décorations" />
   <meta property="og:locale" content="fr_FR" />
+  <meta property="og:site_name" content="Cartes de Vœux" />
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Bon début de mois de Décembre - Carte de Vœux" />
-  <meta name="twitter:description" content="Carte de vœux gratuite pour décembre - Design élégant et personnalisable" />
+  <meta name="twitter:url" content="https://votresite.com/carte-debut-decembre" />
+  <meta name="twitter:title" content="🎄 Bon début de mois de Décembre - Carte de Vœux" />
+  <meta name="twitter:description" content="Que ce mois vous apporte chaleur, moments partagés et magie quotidienne ✨" />
+  <meta name="twitter:image" content="https://votresite.com/images/carte-decembre-preview.jpg" />
+  <meta name="twitter:image:alt" content="Carte de vœux décembre avec sapin et boule de Noël" />
+  
+  <!-- WhatsApp / Telegram -->
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:secure_url" content="https://votresite.com/images/carte-decembre-preview.jpg" />
   
   <!-- Canonical URL -->
-
+  <link rel="canonical" href="https://votresite.com/carte-debut-decembre" />
   
   <!-- Fonts optimisés avec preconnect -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -351,6 +364,145 @@
       outline:3px solid var(--accent);
       outline-offset:2px;
     }
+
+    /* Section de partage social */
+    .share-section{
+      margin-top:clamp(20px, 3vw, 28px);
+      padding-top:clamp(16px, 2.5vw, 20px);
+      border-top:1px solid rgba(176,42,42,0.1);
+    }
+
+    .share-title{
+      font-size:clamp(12px, 1.8vw, 14px);
+      color:var(--muted);
+      margin-bottom:clamp(10px, 1.5vw, 12px);
+      font-weight:600;
+    }
+
+    .share-buttons{
+      display:flex;
+      flex-wrap:wrap;
+      gap:clamp(8px, 1.2vw, 10px);
+    }
+
+    .share-btn{
+      display:inline-flex;
+      align-items:center;
+      gap:6px;
+      padding:clamp(6px, 1vw, 8px) clamp(10px, 1.5vw, 12px);
+      border-radius:clamp(6px, 1vw, 8px);
+      text-decoration:none;
+      font-size:clamp(12px, 1.8vw, 13px);
+      font-weight:500;
+      transition:all 0.2s ease;
+      border:1px solid;
+    }
+
+    .share-btn svg{
+      width:clamp(16px, 2.5vw, 18px);
+      height:clamp(16px, 2.5vw, 18px);
+      flex-shrink:0;
+    }
+
+    .share-btn.facebook{
+      background:#1877F2;
+      color:white;
+      border-color:#1877F2;
+    }
+
+    .share-btn.facebook:hover{
+      background:#0d65d9;
+      transform:translateY(-2px);
+      box-shadow:0 4px 12px rgba(24,119,242,0.3);
+    }
+
+    .share-btn.whatsapp{
+      background:#25D366;
+      color:white;
+      border-color:#25D366;
+    }
+
+    .share-btn.whatsapp:hover{
+      background:#1fb855;
+      transform:translateY(-2px);
+      box-shadow:0 4px 12px rgba(37,211,102,0.3);
+    }
+
+    .share-btn.twitter{
+      background:#1DA1F2;
+      color:white;
+      border-color:#1DA1F2;
+    }
+
+    .share-btn.twitter:hover{
+      background:#0c8bd9;
+      transform:translateY(-2px);
+      box-shadow:0 4px 12px rgba(29,161,242,0.3);
+    }
+
+    .share-btn.linkedin{
+      background:#0A66C2;
+      color:white;
+      border-color:#0A66C2;
+    }
+
+    .share-btn.linkedin:hover{
+      background:#084d91;
+      transform:translateY(-2px);
+      box-shadow:0 4px 12px rgba(10,102,194,0.3);
+    }
+
+    .share-btn.email{
+      background:var(--accent);
+      color:white;
+      border-color:var(--accent);
+    }
+
+    .share-btn.email:hover{
+      background:#8d2121;
+      transform:translateY(-2px);
+      box-shadow:0 4px 12px rgba(176,42,42,0.3);
+    }
+
+    .share-btn.copy{
+      background:transparent;
+      color:var(--accent);
+      border-color:rgba(176,42,42,0.2);
+    }
+
+    .share-btn.copy:hover{
+      background:rgba(176,42,42,0.05);
+      border-color:var(--accent);
+    }
+
+    .share-btn.copy.copied{
+      background:var(--green);
+      color:white;
+      border-color:var(--green);
+    }
+
+    /* Toast notification */
+    .toast{
+      position:fixed;
+      bottom:20px;
+      left:50%;
+      transform:translateX(-50%) translateY(100px);
+      background:var(--green);
+      color:white;
+      padding:12px 24px;
+      border-radius:8px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.15);
+      font-size:14px;
+      font-weight:500;
+      opacity:0;
+      transition:all 0.3s ease;
+      z-index:1000;
+    }
+
+    .toast.show{
+      opacity:1;
+      transform:translateX(-50%) translateY(0);
+    }
   </style>
 </head>
 <body>
@@ -360,9 +512,37 @@
       <p class="lead">Que ce mois vous apporte chaleur, moments partagés et un peu de magie quotidienne. Pense à sourire aujourd'hui — ça change tout.</p>
       <nav class="cta" aria-label="Actions de la carte">
         <a class="btn" href="#partager" role="button" aria-label="Partager cette carte de vœux">Partager</a>
-      
+        <a class="btn ghost" href="#personnaliser" role="button" aria-label="Personnaliser cette carte">Personnaliser</a>
       </nav>
-    
+
+      <!-- Section de partage social -->
+      <div class="share-section">
+        <p class="share-title">📤 Partager cette carte :</p>
+        <div class="share-buttons">
+          <a href="#" class="share-btn facebook" onclick="shareOnFacebook(event)" aria-label="Partager sur Facebook">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            Facebook
+          </a>
+          <a href="#" class="share-btn whatsapp" onclick="shareOnWhatsApp(event)" aria-label="Partager sur WhatsApp">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp
+          </a>
+          <a href="#" class="share-btn twitter" onclick="shareOnTwitter(event)" aria-label="Partager sur X (Twitter)">
+            <svg fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            X
+          </a>
+          <a href="#" class="share-btn email" onclick="shareByEmail(event)" aria-label="Partager par email">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+            Email
+          </a>
+          <button class="share-btn copy" onclick="copyLink(event)" aria-label="Copier le lien">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+            <span class="copy-text">Copier</span>
+          </button>
+        </div>
+      </div>
+
+      <p class="hint">Astuce : ouvre ce fichier sur ton téléphone ou poste-le sur ta page pour le partager facilement.</p>
     </article>
 
     <aside class="visual" aria-label="Décoration festive de Noël">
@@ -393,5 +573,119 @@
       </svg>
     </aside>
   </main>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast" role="alert" aria-live="polite"></div>
+
+  <script>
+    // Configuration du partage
+    const shareConfig = {
+      url: window.location.href,
+      title: "🎄 Bon début de mois de Décembre",
+      text: "Que ce mois vous apporte chaleur, moments partagés et un peu de magie quotidienne. Pense à sourire aujourd'hui — ça change tout. ✨",
+      hashtags: "Décembre,Noël,Vœux,BonMois"
+    };
+
+    // Fonction pour afficher le toast
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      toast.textContent = message;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 3000);
+    }
+
+    // Partage Facebook
+    function shareOnFacebook(e) {
+      e.preventDefault();
+      const url = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareConfig.url)}`;
+      window.open(url, 'facebook-share', 'width=580,height=400');
+      showToast('Fenêtre de partage Facebook ouverte !');
+    }
+
+    // Partage WhatsApp
+    function shareOnWhatsApp(e) {
+      e.preventDefault();
+      const text = `${shareConfig.title}\n\n${shareConfig.text}\n\n${shareConfig.url}`;
+      const url = `https://wa.me/?text=${encodeURIComponent(text)}`;
+      window.open(url, '_blank');
+      showToast('Redirection vers WhatsApp...');
+    }
+
+    // Partage Twitter/X
+    function shareOnTwitter(e) {
+      e.preventDefault();
+      const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareConfig.text)}&url=${encodeURIComponent(shareConfig.url)}&hashtags=${shareConfig.hashtags}`;
+      window.open(url, 'twitter-share', 'width=580,height=400');
+      showToast('Fenêtre de partage X ouverte !');
+    }
+
+    // Partage par Email
+    function shareByEmail(e) {
+      e.preventDefault();
+      const subject = encodeURIComponent(shareConfig.title);
+      const body = encodeURIComponent(`${shareConfig.text}\n\nVoir la carte : ${shareConfig.url}`);
+      window.location.href = `mailto:?subject=${subject}&body=${body}`;
+      showToast('Client email ouvert !');
+    }
+
+    // Copier le lien
+    function copyLink(e) {
+      e.preventDefault();
+      const btn = e.currentTarget;
+      
+      navigator.clipboard.writeText(shareConfig.url).then(() => {
+        btn.classList.add('copied');
+        btn.querySelector('.copy-text').textContent = '✓ Copié';
+        showToast('Lien copié dans le presse-papiers !');
+        
+        setTimeout(() => {
+          btn.classList.remove('copied');
+          btn.querySelector('.copy-text').textContent = 'Copier';
+        }, 2000);
+      }).catch(() => {
+        // Fallback pour navigateurs anciens
+        const textArea = document.createElement('textarea');
+        textArea.value = shareConfig.url;
+        textArea.style.position = 'fixed';
+        textArea.style.left = '-999999px';
+        document.body.appendChild(textArea);
+        textArea.select();
+        try {
+          document.execCommand('copy');
+          showToast('Lien copié !');
+          btn.classList.add('copied');
+          btn.querySelector('.copy-text').textContent = '✓ Copié';
+          setTimeout(() => {
+            btn.classList.remove('copied');
+            btn.querySelector('.copy-text').textContent = 'Copier';
+          }, 2000);
+        } catch (err) {
+          showToast('Erreur lors de la copie');
+        }
+        document.body.removeChild(textArea);
+      });
+    }
+
+    // API Web Share (pour mobiles)
+    if (navigator.share) {
+      document.querySelector('.cta .btn').addEventListener('click', async (e) => {
+        e.preventDefault();
+        try {
+          await navigator.share({
+            title: shareConfig.title,
+            text: shareConfig.text,
+            url: shareConfig.url
+          });
+          showToast('Merci d\'avoir partagé !');
+        } catch (err) {
+          if (err.name !== 'AbortError') {
+            console.log('Erreur de partage:', err);
+          }
+        }
+      });
+    }
+  </script>
 </body>
 </html>
